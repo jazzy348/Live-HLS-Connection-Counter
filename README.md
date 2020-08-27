@@ -5,4 +5,4 @@ This can be used as a load balancer, count the connections on each edge server a
 
 The setup requires two webservers, one that users connect to and one that serves the HLS files.
 
-The webserver uses connect to needs to allow for mod_rewrite otherwise it will not work. Other requires are PHP 7.x with php-curl, and php-redis
+The webserver users connect to needs to allow for mod_rewrite otherwise it will not work. Other requirements are PHP 7.x with php-curl, and php-redis
